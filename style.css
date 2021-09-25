@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
 
 body {
-  background: linear-gradient(230.65deg, #499CFE 27.49%, green 83.19%);
+  background: linear-gradient(230.65deg, #87CEFA	 27.49%, 	#98FB98 83.19%);
   font-family: 'Noto Sans', sans-serif;
 }
 
 .container {
-  background: #ECF4FF;
+  background: linear-gradient(230.65deg, #87CEFA	 27.49%, 	#98FB98 83.19%);
   margin: 66px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0E1D2F;
@@ -26,22 +26,26 @@ body {
 
 .perfil-foto{
   border-radius: 460px;
-  max-height: 160px;
+  max-height: 90px;
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+  align-self: flex-end;
 }
 
 .titulo{
   margin-left: 16px;
+  align-self: flex-end;
 }
 
 .titulo h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
+  align-self: flex-end;
 }
 
 .titulo h3 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
+  align-self: flex-end;
 }
 
 .tema button {
@@ -56,7 +60,7 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(230.65deg, #499CFE 27.49%, green 83.19%);
+  background: linear-gradient(230.65deg, #87CEFA	 27.49%, 	#98FB98 83.19%);
   margin-top: 32px;
   padding: 32px;
   border-radius: 20px;
@@ -82,17 +86,17 @@ body {
  }
 
 .dark {
- background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+ background: linear-gradient(236.85deg, #375B86 27.26%, #00008B 96.03%);
 }
 
 .dark .container {
- background: #333439;
+ background: linear-gradient(236.85deg, #375B86 27.26%, #00008B	96.03%);
  color: #F7F7F7;
  }
 
 .dark .projetos {
- background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
- color: #1C1C1C;
+ background: linear-gradient(236.85deg, #375B86 27.26%, #00008B	96.03%);
+ color: #FFFAFA	;
 }
 
 .dark .tema button{
